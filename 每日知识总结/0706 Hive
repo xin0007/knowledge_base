@@ -1,0 +1,16 @@
+1. Hive的内部表外部表
+
+内部表：将HDFS上的数据移动到数据仓库指定目录（MySQL）；删除表，hive的元数据和元数据都会被删除
+外部表：仅记录源数据的路径，不移动HDFS上的数据；删除表，只删除元数据，不删除源数据
+
+
+
+
+ipChecked_df['web_service'] = ipChecked_df['Request'].apply(lambda s:url_decode(s))
+ipChecked_df['service'] = ipChecked_df['web_service'].apply(lambda s:service(s))
+
+ipChecked_df['Time_date'] = ipChecked_df['Time'].apply(lambda s:date(s))
+ipChecked_df['Time_hour'] = ipChecked_df['Time'].apply(lambda s:hour(s))
+ipChecked_df['Time_minute'] = ipChecked_df['Time'].apply(lambda s:minute(s))
+
+ipChecked_df['application'] = ipChecked_df['User Info'].apply(lambda s: application_check(s))

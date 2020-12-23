@@ -1,0 +1,43 @@
+
+1. MySQL 如何设置使用decoder utf8mb4
+
+create database testA;
+use testA;
+create table `userA`(
+    `id`int(10) primary key,
+    `name` varchar(50),
+    `age` int(3)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+Innodb：是其中的一种存储引擎，它的特性是支持事务，并且采用多版本并发控制的方式来提高并发度主要是事务表，当一个事务全部完成，才会执行update．如果一段代码没有完成（及一个事务操作没有完成）它是不会update的. （其他例如 isam,myisam等）
+
+例如：银行转帐，一笔业务没有完成的时候，突然的断电，或是，网络，系统的原因使你无法完成此交易的话，这个事务是要回滚的此交易之前的状态的，没有完成交易，你银行的money是不会减少的！
+
+缺点是，innoDB的表执行起来速度较慢，但是安全！bbs的表要求的是速度，用的都是myisam的表！
+
+
+2. 如果insert的数据是全的，不需要指明是哪一个key
+insert into userA values(1,'张','三丰',30);
+insert into userA values(2,'李','四光',28);
+insert into userA values(3,'王','小米',22);
+
+
+3. 如果插入的时候出现乱码，导致MySQL里面出现？？的话：
+需要设置两个地方：
+MySQL数据库需要设置characterEncoding为 utf-8
+Kettle写入的时候，option里面，也要写 characterEncoding = utf-8
+
+
+————————————————————————————————————————————
+示例：
+create table `userb`(
+    `id`int(10) primary key,
+    `name` varchar(50),
+    `age` int(3)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+create table `userb`(
+    `idB`int(10) primary key,
+    `nameB` varchar(50),
+    `ageB` int(3)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;

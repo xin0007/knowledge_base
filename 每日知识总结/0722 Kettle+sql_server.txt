@@ -1,0 +1,22 @@
+Kettle:
+
+1. 一行内容拆分成多行：
+
+思路：
+- 先用 JavaScript把所有需要的数据合并在一起， 用“，”分割
+- 然后 split field to rows
+- (如果是多组内容进行分割，就是有两个组合)用 add sequence，为了之后的数据整合 （seq1,seq2）
+	counter name 要写两个不同的名字，来确保每次sequence都是从1开始
+- 用select values选择需要的列
+- 用 merge join去组合两组数据，用seq1 和 seq2连接
+- 最后再用select values选择需要的列
+
+
+SQL Server:
+1. 时间类型convert，带format
+CONVERT(VARCHAR, APPLY_DATE, 21)
+第三个数字是format类型，可用以下网站查询
+https://www.sqlservertutorial.net/sql-server-system-functions/convert-datetime-to-string/
+
+
+

@@ -1,0 +1,8 @@
+1. sql语言中，可以添加variable
+
+syntax：
+
+[[ and spent_on >= {{spend_on_start}}]]
+
+
+

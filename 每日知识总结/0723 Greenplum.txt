@@ -1,0 +1,18 @@
+Greenplum:
+
+1. built-in data types
+
+int8 -- bigint -- large range integer
+serial8 -- bigserial -- large autoincrementing integer
+
+2. 自动partition的方法
+
+create table partition_test (
+id int, 
+date date,
+amt int)
+DISTRIBUTED BY (id)
+
+只需要distributed by 就行，但是 （id） 的要求是long型数据
+
+

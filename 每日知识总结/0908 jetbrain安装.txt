@@ -1,0 +1,15 @@
+data grid; pycharm 安装
+
+1. 下载安装正版
+
+2. 试用
+
+3. 将jetbrains-agent.zip 包拖入程序中重启 
+储存路径为
+/Users/mingxinli/Downloads/jetbrains-agent.zip
+
+4. code：
+LFq51qqupnaiTNn39w6zATiOTxZI2JYuRJEBlzmUDv4zeeNlXhMgJZVb0q5QkLr+CIUrSuNB7ucifrGXawLB4qswPOXYG7+ItDNUR/9UkLTUWlnHLX07hnR1USOrWIjTmbytcIKEdaI6x0RskyotuItj84xxoSBP/iRBW2EHpOc
+
+
+

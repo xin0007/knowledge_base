@@ -1,0 +1,12 @@
+1. Linux 不用ping的情况下检测网络:
+
+curl www.baidu.com
+
+
+2. Greenplum 错误检查
+
+su - gpadmin
+gplogfilter -t： 查看错误：
+Finds only the log entries that have ERROR:, FATAL:, or PANIC: in the first line. 
+
+/data/gpdata/gpmaster/gpseg-1/pg_log/ 是储存错误的地方

@@ -1,0 +1,8 @@
+1. Kettle 设置变量
+
+一：设置总体的parameter
+二：在table input 中
+对勾： Replace variables in script
+SQL里：变量设置 ${acc_ym_from} 或者用快捷键 fn+command+space
+
+2. Kettle 写Oracle的时候，不能在末尾加 “；”

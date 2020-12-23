@@ -1,0 +1,26 @@
+1. 使用字符utf8mb4 更好，里面的中文不会乱码，如果只是用utf8，还会有少量的乱码
+
+dbware
+
+
+2. CDH数据库不要与其他数据库混用
+
+
+3. MySQL 语句：
+CREATE TABLE test_db.student3
+(
+userid VARCHAR(15) PRIMARY KEY,
+name VARCHAR(5),
+score BIGINT
+);
+
+4. kettle用法
+csv file to mysql:
+CSV file input -> Table output
+
+问题：syntax error near (?userID, ...)
+解决：在 table output中的 database fields, 下拉选择
+
+5. python 路径
+PATH="/Library/Frameworks/Python.framework/Versions/3.8/bin:${PATH}"
+export PATH

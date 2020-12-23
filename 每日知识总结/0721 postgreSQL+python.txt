@@ -1,0 +1,70 @@
+PG SQL:
+
+1. PG 权限赋予 schema权限
+
+- 登录
+psql -U username -d database_name -h host -W
+参数含义: -U指定用户 -d要连接的数据库 -h要连接的主机 -W提示输入密码。
+例子：psql -U gpadmin -d testDB -h 172.16.111.31
+
+
+- 设置访问权限
+GRANT ALL ON SCHEMA demo TO demo_role; --赋给用户所有权限
+
+例子：GRANT ALL ON SCHEMA "itssc" TO itssc_operation;
+or: GRANT ALL ON "itssc"."ods_talefull_attendance" TO itssc_operation;
+
+
+
+2. python连PG sql
+
+import psycopg2
+# database，user，password，host，port分别对应要连接的PostgreSQL数据库的数据库名、数据库用户名、用户密码、主机、端口信息，请根据具体情况自行修改
+conn = psycopg2.connect(database="operation",user="gpadmin",
+	password="gpadmin",host="172.16.111.31",port="5432")
+cur = conn.cursor()
+
+#查询指令
+query = """
+select name, email, department
+FROM itssc_operation.sat_users_redmine
+"""
+
+# 执行
+cur.execute(query)
+
+# 读取数据
+rows = cur.fetchall()
+
+import pandas as pd
+email_pd = pd.DataFrame(rows)
+
+# 关闭数据库连接
+conn.close()
+
+
+Python：
+
+1. 判断大小写 string.islower(), string.isupper()
+
+2. pandas 实现两个 df 数据的合并：
+
+按行上下拼接：
+pd.concat([df1,df2],axis=0)
+
+按列左右拼接：
+pd.concat([df1,df2],axis=1)
+
+
+Kettle：
+
+1. 连接sql server数据库：
+需要下载MS sql server的driver
+https://www.findjar.com/jar/net/sourceforge/jtds/jtds/1.3.1/jtds-1.3.1.jar.html
+"jtds-1.3.1.jar.html"
+
+
+
+
+
+

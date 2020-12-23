@@ -1,0 +1,27 @@
+kettle:
+
+1. select values功能:
+Meta-data 改从String到Date，可以选择format，也可以手写format
+
+2. JavaScript:
+in_time = String(ActualTime1).replace("T", " ")
+
+3. Get system info:
+name --
+type -- system date(variable)
+
+
+
+PostgreSQL:
+
+1. 如果pg里面的名字里面有大小写，那么所有column name必须是加引号 “”
+因此在建设数据库的时候，应该尽量避免使用大小写，而改用下划线
+
+2. 时间的取年、月、日
+可以用substring来获取
+如果不是str，可以用 TO_CHAR()功能，例如：substring("Date", 1,7) = TO_CHAR(now(), 'yyyy-mm')
+
+3. 更改日期格式，可以用 to_timestamp()功能：
+
+例如：to_timestamp("Date",'yyyy-MM-dd')，即把"Date"中的格式，转换成"yyyy-MM-dd"的样式
+

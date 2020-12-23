@@ -1,0 +1,7 @@
+1.地址
+172.16.111.29:
+/app/nfs/airflow/dags/
+
+2. Rancher内使用
+需要在rancher内，找到airflow，点击右边的Execute Shell
+这样就在容器内，进行运行了

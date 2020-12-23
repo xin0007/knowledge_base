@@ -1,0 +1,15 @@
+1. mac通过samba协议，连接共享文档
+
+Connect to Server:
+smb://IP地址
+例如: smb://172.16.111.26
+
+
+2. SOP：
+standard operating procedure 
+标准作业程序： 指将某一事件的标准操作步骤和要求以统一的格式默哀数出来，用于指导和规范日常的工作
+
+3. ERP：
+ERP Enterprise Resource Planning 企业资源计划
+内部资源管理系统：人事，财务，采购，收支等
+外服：SAP + 金蝶系统

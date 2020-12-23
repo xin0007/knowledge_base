@@ -1,0 +1,6 @@
+1. 保留小数：
+
+postgres=# select round(1::numeric/4::numeric,2);
+ 
+
+postgres=# select round( cast ( 1 as numeric )/ cast( 4 as numeric),2);

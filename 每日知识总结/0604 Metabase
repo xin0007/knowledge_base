@@ -1,0 +1,7 @@
+MPP的使用
+
+如果是复杂数据处理：
+1. 用Kettle ETL工具，从251数据库拿数据，进行复杂地数据分析、抽取
+2. 储存在MPP中 （PostGreSQL数据库）
+3. MetaBase调用MPP数据做大屏展示
+4. AirFlow作用是可以定时调度

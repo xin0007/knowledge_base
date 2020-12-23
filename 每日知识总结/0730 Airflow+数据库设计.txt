@@ -1,0 +1,43 @@
+Airflow:
+
+1. 写成.py文件
+具体教程
+https://www.cnblogs.com/wanglvtao/p/10826663.html
+
+2. 写好的.py文件，都要放在所有的服务器上，外服是26 34 35 36这四台机器
+例如：/software/airflow/dags/SendReport.py
+运行 python SendReport.py
+
+3. 需要用到的kettle文件，存放在35这台服务器上
+地址： /app/kettle_repo/
+
+Linux：
+1. 查找文件命令：
+find / -name 名字：
+例如：
+find / -name SendReport.py
+
+2. scp一个文件夹里全部内容
+不包含文件夹:
+scp -r /* root@####
+例子： 
+scp /Users/mingxinli/Desktop/上海外服/任务/运营原始数据接入/kettle/* root@hadoop101:/app/kettle_repo/itssc_operation/
+
+包含文件夹：
+scp -r 文件夹名字 root@####:/
+
+
+3. vi功能
+i:进入编辑
+x:保存退出
+
+
+数据库接入设计：
+
+1. 做数据同步之前，需要有一步数据探索，找到响应的数据来源，进行数据的比对，找到哪个全面，哪个维护更及时，制定数据标准，定义哪个数据库为主要来源，那么那个数据库需要负责起这些字段的维护和更新。
+
+2. 数据库设计，第一范式：不可再分原则
+
+
+
+
