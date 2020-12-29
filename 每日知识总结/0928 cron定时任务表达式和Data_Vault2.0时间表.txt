@@ -58,9 +58,10 @@ W: 表示有效工作日（周一到周五），只能出现在DayofMonth域，�
 LW: 这两个字符可以连用，表示在某个月最后一个工作日，即最后一个星期五。 
 #: 用于确定每个月第几个星期几，只能出现在DayofMonth域。例如4#2，表示某月的第二个星期三
 
-
-
-
+2.2 不同位数的cron
+五位：Minutes Hours DaysofMonth Month DayofWeek
+六位：Seconds Minutes Hours DayofMonth Month DayofWeek
+七位：Seconds Minutes Hours DayofMonth Month DayofWeek Year
 
 
 3. Data Vault 2.0 的时间维度
