@@ -28,3 +28,9 @@ uname -m 系统版本
 5. chmod
 chmod a+x 所有人都能执行这个文件
 （当curl下来一个二进制文件的时候，必须进行chmod a+x 文件，才能运行文件）
+
+6. ps: process status 
+命令用于显示当前进程的状态，类似于 windows 的任务管理器
+
+-a: 列出所有的进程
+-w: 显示加宽可以显示较多的咨询
