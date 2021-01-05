@@ -1,0 +1,9 @@
+airflow执行器
+
+执行器有 SequentialExecutor, LocalExecutor, CeleryExecutor
+
+1. SequentialExecutor 为顺序执行器，默认使用 sqlite 作为知识库，由于 sqlite 数据库的原因，任务之间不支持并发执行，常用于测试环境，无需要额外配置。
+
+2. LocalExecutor 为本执行器，不能使用 sqlite 作为知识库，可以使用 mysql,postgress,db2,oracle 等各种主流数据库，任务之间支持并发执行，常用于生产环境，需要配置数据库连接 url。
+
+3. CeleryExecutor 为 Celery 执行器，需要安装 Celery ,Celery 是基于消息队列的分布式异步任务调度工具。需要额外启动工作节点-worker。使用 CeleryExecutor 可将作业运行在远程节点上。
