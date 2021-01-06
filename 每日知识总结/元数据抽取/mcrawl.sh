@@ -34,7 +34,7 @@ function crawl
 }
 
 # EHR Test
-# crawl "jdbc:oracle:thin:@172.16.106.51:1521/ehrtest" "sfsc" "sfsc123" "FCF"
+# crawl "jdbc:oracle:thin:@172.16.106.51:1521/ehrtest" "sfsc" "sfsc123" "FCF" -- schema名称
 
 # redmine
 # crawl "jdbc:mysql://172.16.226.165:3306" "redmine_read" "redmine_read" "redmine"
