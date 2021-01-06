@@ -41,5 +41,7 @@ no hang up 不挂起
 
 nohup 命令，在默认情况下（非重定向时），会输出一个名叫 nohup.out 的文件到当前目录下，如果当前目录的 nohup.out 文件不可写，输出重定向到 $HOME/nohup.out 文件中。
 
+8. nmcli
+nmcli命令可以完成网卡上所有的配置工作，并且可以写入配置文件，永久生效
 
 
