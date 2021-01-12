@@ -44,4 +44,9 @@ nohup 命令，在默认情况下（非重定向时），会输出一个名叫 n
 8. nmcli
 nmcli命令可以完成网卡上所有的配置工作，并且可以写入配置文件，永久生效
 
+设置DNS： 
+nmcli con mod ens192 ipv4.dns "172.16.149.23 202.96.209.5"
+nmcli con up ens192
+
+
 
