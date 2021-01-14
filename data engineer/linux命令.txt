@@ -48,5 +48,18 @@ nmcli命令可以完成网卡上所有的配置工作，并且可以写入配置
 nmcli con mod ens192 ipv4.dns "172.16.149.23 202.96.209.5"
 nmcli con up ens192
 
+9. Export
+Linux 命令用于设置或显示环境变量
+在shell中执行程序时，shell会提供一组环境变量。
+
+Export 可新增，修改或删除环境变量，供后续执行的程序使用
+Export的效力仅限于该次登录操作
+
+export -p 列出当前的环境变量值
+
+
+
+
+
 
 
