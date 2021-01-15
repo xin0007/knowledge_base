@@ -1,3 +1,5 @@
 yum  install  -y  davfs2
 mkdir -p /data/calendar
 mount -t davfs http://172.16.111.29:31004/itssc/calendar /data/calendar
+
+mount -t davfs http://172.16.149.14:31402/itssc/calendar /data/calendar
