@@ -1,3 +1,5 @@
+hostname 空白
+
 database name:
 
 IP：端口/ service name
