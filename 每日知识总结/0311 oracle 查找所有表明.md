@@ -1,0 +1,7 @@
+```sql
+select *
+from ALL_TABLES
+where TABLE_NAME like '%COMPANY%'
+and owner = 'SFSC'
+```
+
