@@ -1,3 +1,4 @@
+job启动：
 http://172.16.149.26:8080/kettle/runJob/?job=finc/E_FINC_SH_MANUAL&level=Debug
 
 job的目录是从根目录之后的，不需要根目录的目录名
@@ -7,3 +8,8 @@ kettle_repo
 	- E_FINC_SH_MANUAL.kjb
 
 ?job=finc/E_FINC_SH_MANUAL
+
+
+
+trans启动：
+http://172.16.228.67:8080/kettle/runTrans?trans=finc/E_FINC_FS_KINGDEE_BASE_INFOR_TMPSH&level=Debug
