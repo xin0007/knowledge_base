@@ -1,0 +1,3 @@
+1. git 命令
+git branch -v 查看所在branch
+git checkout master 切换到master branch

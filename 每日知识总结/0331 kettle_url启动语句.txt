@@ -1,0 +1,9 @@
+http://172.16.149.26:8080/kettle/runJob/?job=finc/E_FINC_SH_MANUAL&level=Debug
+
+job的目录是从根目录之后的，不需要根目录的目录名
+例如
+kettle_repo
+- finc
+	- E_FINC_SH_MANUAL.kjb
+
+?job=finc/E_FINC_SH_MANUAL
