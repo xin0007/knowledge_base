@@ -11,3 +11,11 @@
 数据卷
 
 系统参数：datax start speed_test_finc.json
+
+
+
+3. 本地使用datax
+
+   cd 到本地datax路径
+
+   python2 datax.py /Users/mingxinli/Desktop/上海外服/任务/datax大批量抽取数据/datax_extrac_qgsc.json
