@@ -1,3 +1,14 @@
 1. git 命令
 git branch -v 查看所在branch
 git checkout master 切换到master branch
+
+
+忽略.DS_store 文件
+
+所以，我们只需要在对应的Git目录下，创建一个.gitignore文件，然后配置上.DS_Store即可，步骤如下:
+1.命令行下使用touch .gitignore创建.gitignore文件(已有的直接到第二步)
+wdw:test wdw$ touch .gitignore
+2.open .gitignore，输入.DS_Store 换行再输入*/.DS_Store
+
+
+
