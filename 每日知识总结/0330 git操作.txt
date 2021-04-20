@@ -10,5 +10,11 @@ git checkout master 切换到master branch
 wdw:test wdw$ touch .gitignore
 2.open .gitignore，输入.DS_Store 换行再输入*/.DS_Store
 
+3. 
+如果是项目做到一半才开始加入.gitignore,则需要在commit所有已经修改文件后，执行以下命令保证.gitignore开始生效。
+git rm -r --cached .
+git add .
+git commit -m 'update .gitignore'
+
 
 
