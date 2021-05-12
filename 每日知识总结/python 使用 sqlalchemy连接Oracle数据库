@@ -1,0 +1,7 @@
+python 使用 sqlalchemy连接Oracle数据库
+
+service name：
+dsn = "oracle+cx_oracle://USER:PASSWD@HOST:PORT/?service_name=SERVICENAME"
+
+SID:
+dsn = "oracle+cx_Oracle://USER:PASSWD@HOST:PORT/SID"

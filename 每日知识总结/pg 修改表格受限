@@ -1,0 +1,15 @@
+pg表格，
+修改字段类型或者长度，但是报错ERROR: cannot alter type of a column used by a view or rule.
+原因：有view使用了这个字段
+
+方法一：
+drop view
+修改
+create view
+
+方案二：需要dba权限
+SELECT atttypmod FROM pg_attribute WHERE attrelid = 'a'::regclass AND attname = 'name';
+update pg_attribute set atttypmod =34 WHERE attrelid ='a'::regclass AND attname = 'name';
+
+
+通常长度会+4，所以你需要30的话，需要修改为 34
