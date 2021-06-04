@@ -34,3 +34,31 @@ spec:
 
 
 
+
+
+```yaml
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: pyjob-metadata-load-test
+spec:
+  ttlSecondsAfterFinished: 100
+  template:
+    spec:
+      containers:
+        - name: pyjob-metadata-load-test
+          image: harbor-lab.fsg.inner/ml/pyjob_metadata_load:0.1
+          imagePullPolicy: IfNotPresent
+          args: ["-s", "TEST", "/metadata/TEST"]
+          volumeMounts:
+            - mountPath: /metadata
+              name: v-nfx-metadata
+      restartPolicy: Never
+      volumes:
+        - hostPath:
+            path: /app/nfs/metadata
+            type: ""
+          name: v-nfx-metadata
+  backoffLimit: 4
+```
+
