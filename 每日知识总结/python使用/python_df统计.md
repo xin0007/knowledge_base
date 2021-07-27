@@ -8,6 +8,18 @@ df['tag'].value_counts()
 
 
 
+对统计结果的操作
+
+```python
+count = left_df['username'].value_counts()
+
+count[count.values == 2].index 
+```
+
+
+
+
+
 list
 
 ```python
