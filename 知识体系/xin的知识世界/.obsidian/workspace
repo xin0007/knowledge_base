@@ -1,0 +1,98 @@
+{
+  "main": {
+    "id": "d5142d122062ca11",
+    "type": "split",
+    "children": [
+      {
+        "id": "31b8b29b3a463b94",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "TODO 0727.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6e8bf997fbfd6cba",
+    "type": "split",
+    "children": [
+      {
+        "id": "c4992dd4816954bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ece4cb4a03d8dc86",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "aac0be42e02795c0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#TODO",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1a5d9a98ec1e254a",
+    "type": "split",
+    "children": [
+      {
+        "id": "d3955dafc864adee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eface0b5dc290193",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "TODO 0727.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "31b8b29b3a463b94",
+  "lastOpenFiles": [
+    "TODO 0727.md",
+    "TODO LIST.md",
+    "TODO 0728.md",
+    "未命名.md",
+    "To Do.md",
+    "达利欧的五步法.md"
+  ]
+}
