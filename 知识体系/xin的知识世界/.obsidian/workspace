@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "达利欧的五步法.md",
+            "file": "TODO 0728.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "达利欧的五步法.md",
+                "file": "TODO 0728.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,9 +88,9 @@
   },
   "active": "31b8b29b3a463b94",
   "lastOpenFiles": [
+    "TODO 0728.md",
     "达利欧的五步法.md",
     "TODO 0727.md",
-    "TODO 0728.md",
     "TODO LIST.md",
     "未命名.md",
     "To Do.md"
