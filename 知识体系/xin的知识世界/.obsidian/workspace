@@ -7,11 +7,8 @@
         "id": "5be76bbd3a15afbc",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "多巴胺.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -39,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#TODO",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "多巴胺.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,13 +84,15 @@
   },
   "active": "5be76bbd3a15afbc",
   "lastOpenFiles": [
-    "多巴胺.md",
-    "Pasted image 20210728155707.png",
-    "未命名.md",
+    "PYTHON/test.md",
+    "PYTHON/test1.md",
+    "PYTHON/PYTHON.md",
+    "PYTHON/未命名.md",
+    "TO_DO/TODO 0728.md",
     "达利欧的五步法.md",
-    "TODO 0728.md",
-    "TODO LIST.md",
-    "TODO 0727.md",
-    "To Do.md"
+    "多巴胺.md",
+    "未命名.md",
+    "TO_DO/TODO LIST.md",
+    "TO_DO/TODO 0727.md"
   ]
 }
