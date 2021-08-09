@@ -28,7 +28,3 @@ result_train = pd.value_counts(y_train)
 ## y_train 是一个list
 ```
 
-
-
-
-

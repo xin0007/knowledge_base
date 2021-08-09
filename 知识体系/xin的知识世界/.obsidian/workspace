@@ -7,8 +7,11 @@
         "id": "5be76bbd3a15afbc",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "PYTHON/dict2df.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "PYTHON/dict2df.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,15 +88,15 @@
   },
   "active": "5be76bbd3a15afbc",
   "lastOpenFiles": [
-    "PYTHON/test.md",
-    "PYTHON/test1.md",
-    "PYTHON/PYTHON.md",
     "PYTHON/未命名.md",
-    "TO_DO/TODO 0728.md",
-    "达利欧的五步法.md",
-    "多巴胺.md",
-    "未命名.md",
-    "TO_DO/TODO LIST.md",
-    "TO_DO/TODO 0727.md"
+    "PYTHON/df功能.md",
+    "ML/未命名.md",
+    "ML/python分层取样.md",
+    "ML/ML_TAG.md",
+    "PYTHON/python去除warning.md",
+    "PYTHON/df&list统计.md",
+    "PYTHON/PYTHON_TAG.md",
+    "PYTHON/pyechart画图.md",
+    "PYTHON/对时间进行操作.md"
   ]
 }
