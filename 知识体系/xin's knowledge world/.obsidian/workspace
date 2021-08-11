@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b5114b21851ab237",
+        "id": "f6f1d34e5a84f034",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "PYTHON/from _future.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -39,8 +36,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": false,
+                "query": "tag:#db",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -68,14 +65,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PYTHON/from _future.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
               }
             }
           }
@@ -86,17 +82,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b5114b21851ab237",
+  "active": "f6f1d34e5a84f034",
   "lastOpenFiles": [
-    "PYTHON/未命名.md",
-    "PYTHON/df&list统计.md",
-    "Learn/多巴胺.md",
-    "架构/从企业架构到信息化规划，从现状调研到架构设计的核心逻辑.md",
-    "ML/标签向量化.md",
-    "ML/python分层取样.md",
-    "ML/ML_TAG.md",
-    "PYTHON/遍历文件夹里的文件.md",
-    "PYTHON/清洗日志数据格式.md",
-    "PYTHON/对时间进行操作.md"
+    "其他知识/goAccess教程.md",
+    "数据库知识/Greenplum/数据库迁移.md",
+    "IT知识/airflow/重启.md",
+    "数据库知识/Oracle/JDBC的三种连接方式.md",
+    "IT知识/Linux操作/未命名.md",
+    "数据库知识/Oracle/未命名.md",
+    "IT知识/kettle/未命名.md",
+    "IT知识/MetaBase/未命名.md",
+    "架构/数据架构/元数据/数据库模型整理.md",
+    "架构/数据架构/未命名.md"
   ]
 }

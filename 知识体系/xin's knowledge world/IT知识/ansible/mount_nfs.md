@@ -1,0 +1,24 @@
+[[IT_TAG]] #IT 
+
+```yml
+- hosts: "{{host_name}}"
+  tasks:
+    - name: yum install dependence
+      yum: 
+        name:
+          - nfs-utils 
+          - rpcbind
+        state: present
+    - name: create mount directory
+      file:
+        path: /app/nfs
+        state: directory
+    - name: mount nfs
+      mount: name=/app/nfs src=172.16.111.27:/nfs fstype=nfs state=mounted
+
+
+```
+
+--- 
+
+![[mount_nfs.yml]]

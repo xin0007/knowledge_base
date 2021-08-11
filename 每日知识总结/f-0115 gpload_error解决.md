@@ -18,7 +18,7 @@ ALTER role itssc_operation CREATEEXTTABLE (type='readable');
 
 拷贝进来，stopCarte,
 
-然后在/app/data-integration中执行
+然后在/app/data-integration中执行a
 
 source /usr/local/greenplum-db-clients/greenplum_clients_path.sh && ( ./carte.sh carte-config-master.xml > logs/carte.log 2>&1 &)
 

@@ -1,5 +1,7 @@
 {
   "fileSortOrder": "alphabetical",
   "promptDelete": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "shortest",
+  "attachmentFolderPath": "图片储存"
 }

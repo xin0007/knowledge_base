@@ -1,0 +1,58 @@
+[[IT_TAG]] #IT 
+
+job启动：
+http://172.16.149.26:8080/kettle/runJob/?job=finc/E_FINC_SH_MANUAL&level=Debug
+
+job的目录是从根目录之后的，不需要根目录的目录名
+例如
+kettle_repo
+- finc
+	- E_FINC_SH_MANUAL.kjb
+
+?job=finc/E_FINC_SH_MANUAL
+
+
+
+trans启动：
+http://172.16.228.67:8080/kettle/runTrans?trans=finc/E_FINC_FS_KINGDEE_BASE_INFOR_TMPSH&SFSC_CODE=12344&level=Debug
+
+参数可以直接用一个&连接
+
+
+linux启动：
+curl --location --request GET 'http://sfy2ra.natappfree.cc/kettle/runTrans/?trans=dangjian/E_DANGJIAN_BIGDATA' \
+--header 'Authorization: Basic Y2x1c3RlcjpjbHVzdGVy'
+
+---
+
+![[测试url启动命令.ktr]]
+
+
+---
+
+通过url启动job：
+
+http://172.16.228.67:8080/kettle/runJob/?job=mbp_etl_kettle_repo/kettle_repo/mbp/mbp_etl_v2&level=Debug
+
+
+
+解释：
+
+![[Pasted image 20210811105502.png]]
+
+
+
+(未验证)
+
+curl  172.16.149.26:8080/kettle/runTrans/?trans=resourcePool_MPP/load_calendar.ktr&level=Debug
+
+
+
+
+
+
+
+
+
+
+

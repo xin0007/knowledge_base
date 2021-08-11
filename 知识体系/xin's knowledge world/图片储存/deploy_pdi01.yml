@@ -1,0 +1,70 @@
+- hosts: pdi01
+  vars:
+    - remote_ip: "{{ ansible_default_ipv4['address'] }}"
+    - remote_hostname: "{{ ansible_fqdn }}"
+    - remote_port: 8080
+  tasks:
+  - name: check PDI exists.
+    stat:
+      path: /app/data-integration
+    register: pdi_details
+    tags: deploy_PDI
+  - name: deploy PDI package.
+    unarchive: 
+      src: "/data/smb/public/tools/data-integration.tar.gz"
+      dest: /app
+    when: not pdi_details.stat.exists
+    tags: deploy_PDI
+  - name: set carte config.
+    xml:
+      path: /app/data-integration/carte-config-master.xml
+      xpath: "{{ item.path }}"
+      value: "{{ item.value }}"
+    with_items:
+      - { "path": "/slave_config/slaveserver/name", "value":"{{ remote_hostname }}" }
+      - { "path": "/slave_config/slaveserver/hostname", "value":"{{ remote_ip }}" }
+      - { "path": "/slave_config/slaveserver/port", "value":"{{ remote_port }}" }
+    tags: config_PDI
+  - name: create kettle repoistory
+    file:
+      path: /app/kettle_repo
+      state: directory
+    tags: config_PDI
+  - name: kettle repoistory config
+    copy:
+      src: /data/smb/public/tools/repositories.xml
+      dest: ~/.kettle/
+    tags: config_PDI
+
+
+  - name: get pid of Carte.sh
+    shell: "ps -ef | grep -v grep | grep 'spoon.sh -main org.pentaho.di.www.Carte' | awk '{print $2}'"
+    register: running_processes
+    tags: stop_PDI
+  - name: stop running Carte
+    uri:
+      url: "http://{{ remote_ip }}:{{ remote_port }}/kettle/stopCarte/"
+      user: cluster
+      password: cluster
+      method: GET
+      force_basic_auth: yes
+      status_code: 200
+    tags: stop_PDI
+    with_items: "{{ running_processes.stdout_lines }}"
+
+  - name: get pid of Carte.sh again with kill
+    shell: "ps -ef | grep -v grep | grep 'spoon.sh -main org.pentaho.di.www.Carte' | awk '{print $2}'"
+    register: running_processes
+    tags: stop_PDI
+  - name: Kill running processes
+    shell: "kill -9 {{ item }}"
+    with_items: "{{ running_processes.stdout_lines }}"
+    tags: stop_PDI
+
+  - name: start Carte Server
+    shell: 
+      cmd: "( ./carte.sh carte-config-master.xml > logs/carte.log 2>&1 &)"
+      chdir: /app/data-integration
+    async: 10
+    poll: 0
+    tags: start_PDI

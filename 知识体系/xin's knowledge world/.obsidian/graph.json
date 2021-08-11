@@ -34,6 +34,55 @@
         "a": 1,
         "rgb": 5431378
       }
+    },
+    {
+      "query": "tag:db",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "tag:other",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    },
+    {
+      "query": "tag:cda",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    },
+    {
+      "query": "tag:thought",
+      "color": {
+        "a": 1,
+        "rgb": 11621088
+      }
+    },
+    {
+      "query": "tag:fsg",
+      "color": {
+        "a": 1,
+        "rgb": 14701233
+      }
+    },
+    {
+      "query": "tag:IT",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "tag:lan",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
     }
   ],
   "collapse-display": true,
@@ -43,9 +92,9 @@
   "lineSizeMultiplier": 3.84210477941176,
   "collapse-forces": false,
   "centerStrength": 0.518713248970312,
-  "repelStrength": 8.93566176470588,
-  "linkStrength": 0.627941176470588,
+  "repelStrength": 11.2647058823529,
+  "linkStrength": 0.5171875,
   "linkDistance": 158,
-  "scale": 1.5468833586387296,
+  "scale": 0.4887253948915915,
   "close": false
 }

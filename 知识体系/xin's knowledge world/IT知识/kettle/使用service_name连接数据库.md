@@ -1,0 +1,12 @@
+[[IT_TAG]] #IT 
+
+hostname 空白
+
+database name:
+
+IP：端口/ service name
+例如：172.16.148.33:1521/ehr2
+
+port number: -1
+username:XXX
+password: YYY
