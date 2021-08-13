@@ -7,8 +7,11 @@
         "id": "bb8ce59c13fd2952",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Learn/how to take smart notes.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Learn/how to take smart notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,12 +88,12 @@
   },
   "active": "bb8ce59c13fd2952",
   "lastOpenFiles": [
+    "Learn/未命名.md",
     "IT知识/其他/宿主机.md",
     "架构/企业架构/未命名.md",
     "IT知识/其他/未命名.md",
     "Learn/达利欧的五步法.md",
     "Learn/信息量和效率.md",
-    "Learn/未命名.md",
     "Learn/reading_list.md",
     "其他语言/lan_tag.md",
     "未命名.md",
