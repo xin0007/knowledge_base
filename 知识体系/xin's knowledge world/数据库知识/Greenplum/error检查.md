@@ -1,3 +1,5 @@
+[[DB_TAG]] #db 
+
 su - gpadmin
 gplogfilter -t： 查看错误：
 Finds only the log entries that have ERROR:, FATAL:, or PANIC: in the first line. 

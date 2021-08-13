@@ -1,4 +1,4 @@
-[[other_tag]] #other 
+[[IT_TAG]] #IT 
 
 1. mac安装
 

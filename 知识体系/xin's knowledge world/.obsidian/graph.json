@@ -43,13 +43,6 @@
       }
     },
     {
-      "query": "tag:other",
-      "color": {
-        "a": 1,
-        "rgb": 5419488
-      }
-    },
-    {
       "query": "tag:cda",
       "color": {
         "a": 1,
@@ -83,18 +76,25 @@
         "a": 1,
         "rgb": 14725458
       }
+    },
+    {
+      "query": "tag:learn",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": -0.4,
   "nodeSizeMultiplier": 3.19267463235294,
   "lineSizeMultiplier": 3.84210477941176,
   "collapse-forces": false,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 11.2647058823529,
-  "linkStrength": 0.5171875,
-  "linkDistance": 158,
-  "scale": 0.4887253948915915,
-  "close": false
+  "centerStrength": 0.3765625,
+  "repelStrength": 6.95220588235294,
+  "linkStrength": 0.733088235294118,
+  "linkDistance": 280,
+  "scale": 0.9477212734502455,
+  "close": true
 }

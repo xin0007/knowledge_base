@@ -4,10 +4,10 @@
     "type": "split",
     "children": [
       {
-        "id": "f6f1d34e5a84f034",
+        "id": "bb8ce59c13fd2952",
         "type": "leaf",
         "state": {
-          "type": "empty",
+          "type": "graph",
           "state": {}
         }
       }
@@ -70,8 +70,8 @@
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": false
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           }
@@ -82,17 +82,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f6f1d34e5a84f034",
+  "active": "bb8ce59c13fd2952",
   "lastOpenFiles": [
-    "其他知识/goAccess教程.md",
-    "数据库知识/Greenplum/数据库迁移.md",
-    "IT知识/airflow/重启.md",
-    "数据库知识/Oracle/JDBC的三种连接方式.md",
-    "IT知识/Linux操作/未命名.md",
-    "数据库知识/Oracle/未命名.md",
-    "IT知识/kettle/未命名.md",
-    "IT知识/MetaBase/未命名.md",
-    "架构/数据架构/元数据/数据库模型整理.md",
-    "架构/数据架构/未命名.md"
+    "IT知识/其他/宿主机.md",
+    "架构/企业架构/未命名.md",
+    "IT知识/其他/未命名.md",
+    "Learn/达利欧的五步法.md",
+    "Learn/信息量和效率.md",
+    "Learn/未命名.md",
+    "Learn/reading_list.md",
+    "其他语言/lan_tag.md",
+    "未命名.md",
+    "TO_DO/DODO 0812.md"
   ]
 }
