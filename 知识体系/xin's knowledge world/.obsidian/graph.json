@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:TODO",
@@ -87,14 +87,14 @@
   ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -0.4,
+  "textFadeMultiplier": -3,
   "nodeSizeMultiplier": 3.19267463235294,
   "lineSizeMultiplier": 3.84210477941176,
   "collapse-forces": false,
   "centerStrength": 0.3765625,
-  "repelStrength": 6.95220588235294,
-  "linkStrength": 0.733088235294118,
+  "repelStrength": 10.34375,
+  "linkStrength": 0.488051470588235,
   "linkDistance": 280,
-  "scale": 0.9477212734502455,
-  "close": true
+  "scale": 0.43421513349007074,
+  "close": false
 }
