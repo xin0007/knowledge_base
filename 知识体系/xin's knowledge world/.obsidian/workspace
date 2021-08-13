@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Learn/how to take smart notes.md",
-            "mode": "preview"
+            "file": "TO_DO/TODO LIST.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learn/how to take smart notes.md",
+                "file": "TO_DO/TODO LIST.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "bb8ce59c13fd2952",
   "lastOpenFiles": [
+    "TO_DO/TODO LIST.md",
     "Learn/未命名.md",
     "IT知识/其他/宿主机.md",
     "架构/企业架构/未命名.md",
@@ -96,7 +97,6 @@
     "Learn/信息量和效率.md",
     "Learn/reading_list.md",
     "其他语言/lan_tag.md",
-    "未命名.md",
-    "TO_DO/DODO 0812.md"
+    "未命名.md"
   ]
 }
