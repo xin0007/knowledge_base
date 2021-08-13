@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Learn/Zettelkasten-第二大脑概念.md",
+            "file": "Learn/how to take smart notes/Zettelkasten具体步骤.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learn/Zettelkasten-第二大脑概念.md",
+                "file": "Learn/how to take smart notes/Zettelkasten具体步骤.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "bb8ce59c13fd2952",
   "lastOpenFiles": [
-    "Learn/Zettelkasten.md",
-    "Learn/how to take smart notes.md",
     "Learn/未命名.md",
+    "Learn/第二大脑组成.md",
+    "Learn/Zettelkasten-第二大脑概念.md",
+    "Learn/how to take smart notes.md",
+    "未命名.md",
+    "Learn/Zettelkasten.md",
     "TO_DO/TODO LIST.md",
     "IT知识/其他/宿主机.md",
     "架构/企业架构/未命名.md",
-    "IT知识/其他/未命名.md",
-    "Learn/达利欧的五步法.md",
-    "Learn/信息量和效率.md",
-    "Learn/reading_list.md"
+    "IT知识/其他/未命名.md"
   ]
 }
