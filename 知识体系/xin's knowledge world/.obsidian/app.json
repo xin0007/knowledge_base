@@ -3,5 +3,6 @@
   "promptDelete": false,
   "alwaysUpdateLinks": true,
   "newLinkFormat": "shortest",
-  "attachmentFolderPath": "图片储存"
+  "attachmentFolderPath": "图片储存",
+  "communityPluginSortOrder": "download"
 }

@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "bb8ce59c13fd2952",
+        "id": "ae20055822bfde76",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Learn/how to take smart notes/Zettelkasten具体步骤.md",
+            "file": "Daily/2021-08-13.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learn/how to take smart notes/Zettelkasten具体步骤.md",
+                "file": "Daily/2021-08-13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,8 +86,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "bb8ce59c13fd2952",
+  "active": "ae20055822bfde76",
   "lastOpenFiles": [
+    "Daily/2021-08-13.md",
+    "100-SlipBox/110-FleetingBox/-202108131608.md",
     "Learn/未命名.md",
     "Learn/第二大脑组成.md",
     "Learn/Zettelkasten-第二大脑概念.md",
@@ -95,8 +97,6 @@
     "未命名.md",
     "Learn/Zettelkasten.md",
     "TO_DO/TODO LIST.md",
-    "IT知识/其他/宿主机.md",
-    "架构/企业架构/未命名.md",
-    "IT知识/其他/未命名.md"
+    "IT知识/其他/宿主机.md"
   ]
 }
