@@ -27,4 +27,4 @@ https://mp.weixin.qq.com/s/gOxzalQjQJZYeX3Tfthmlg
 4. 一个编辑器
 
 
-[[Zettelkasten-第二大脑概念]]
+[[01a Zettelkasten-第二大脑概念]]

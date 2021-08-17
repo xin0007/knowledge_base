@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "ae20055822bfde76",
+        "id": "458ef74200c789f2",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily/2021-08-13.md",
+            "file": "Learn/how to take smart notes/01c Zettelkasten具体步骤.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily/2021-08-13.md",
+                "file": "Learn/how to take smart notes/01c Zettelkasten具体步骤.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -78,6 +78,14 @@
                 "unlinkedCollapsed": false
               }
             }
+          },
+          {
+            "id": "16d3a4af1e3dbb3e",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
         ]
       }
@@ -86,17 +94,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ae20055822bfde76",
+  "active": "458ef74200c789f2",
   "lastOpenFiles": [
-    "Daily/2021-08-13.md",
-    "100-SlipBox/110-FleetingBox/-202108131608.md",
-    "Learn/未命名.md",
-    "Learn/第二大脑组成.md",
-    "Learn/Zettelkasten-第二大脑概念.md",
-    "Learn/how to take smart notes.md",
-    "未命名.md",
-    "Learn/Zettelkasten.md",
-    "TO_DO/TODO LIST.md",
-    "IT知识/其他/宿主机.md"
+    "Learn/how to take smart notes/01c Zettelkasten具体步骤.md",
+    "Learn/how to take smart notes/01 how to take smart notes.md",
+    "Learn/how to take smart notes/01a Zettelkasten-第二大脑概念.md",
+    "Learn/how to take smart notes/01b 第二大脑组成.md",
+    "Learn/how to take smart notes/Zettelkasten具体步骤.md",
+    "Learn/how to take smart notes/第二大脑组成.md",
+    "Learn/how to take smart notes/Zettelkasten-第二大脑概念.md",
+    "Learn/how to take smart notes/how to take smart notes.md",
+    "Learn/信息量和效率.md",
+    "Template/zk-template.md"
   ]
 }

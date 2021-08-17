@@ -1,4 +1,5 @@
 {
   "folder": "100-SlipBox/110-FleetingBox",
-  "format": "-YYYYMMDDHHMM"
+  "format": "-YYYYMMDDHHMM",
+  "template": "Template/zk-template"
 }

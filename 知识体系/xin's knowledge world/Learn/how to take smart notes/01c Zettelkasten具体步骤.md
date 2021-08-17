@@ -1,4 +1,4 @@
-[[Zettelkasten-第二大脑概念]]
+[[01a Zettelkasten-第二大脑概念]]
 
 1. 将思想、灵感和学习心得记录到一张卡片上。
 灵感、笔记、随笔 记录到 FleetingBox 
