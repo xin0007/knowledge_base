@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Learn/how to take smart notes/01c Zettelkasten具体步骤.md",
+            "file": "100-SlipBox/111-LituratureBox/-202108171708.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learn/how to take smart notes/01c Zettelkasten具体步骤.md",
+                "file": "100-SlipBox/111-LituratureBox/-202108171708.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,15 +96,15 @@
   },
   "active": "458ef74200c789f2",
   "lastOpenFiles": [
-    "Learn/how to take smart notes/01c Zettelkasten具体步骤.md",
-    "Learn/how to take smart notes/01 how to take smart notes.md",
-    "Learn/how to take smart notes/01a Zettelkasten-第二大脑概念.md",
-    "Learn/how to take smart notes/01b 第二大脑组成.md",
-    "Learn/how to take smart notes/Zettelkasten具体步骤.md",
-    "Learn/how to take smart notes/第二大脑组成.md",
-    "Learn/how to take smart notes/Zettelkasten-第二大脑概念.md",
-    "Learn/how to take smart notes/how to take smart notes.md",
-    "Learn/信息量和效率.md",
-    "Template/zk-template.md"
+    "100-SlipBox/111-LituratureBox/-202108171708.md",
+    "未命名.md",
+    "100-SlipBox/110-FleetingBox/-202108171608.md",
+    "100-SlipBox/110-FleetingBox/-202108171508.md",
+    "100-SlipBox/111-LituratureBox/how to take smart notes/未命名.md",
+    "100-SlipBox/111-LituratureBox/how to take smart notes/01c Zettelkasten具体步骤.md",
+    "100-SlipBox/111-LituratureBox/how to take smart notes/01c1 zk卡片元素.md",
+    "100-SlipBox/112-PermanentBox/how to take smart notes/01c Zettelkasten具体步骤.md",
+    "100-SlipBox/112-PermanentBox/how to take smart notes/01 how to take smart notes.md",
+    "100-SlipBox/112-PermanentBox/how to take smart notes/01a Zettelkasten-第二大脑概念.md"
   ]
 }
