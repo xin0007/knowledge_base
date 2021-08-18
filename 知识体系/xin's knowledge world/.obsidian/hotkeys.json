@@ -48,5 +48,13 @@
       ],
       "key": "T"
     }
+  ],
+  "obsidian-day-planner:app:show-day-planner-today-note": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
   ]
 }
