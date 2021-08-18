@@ -40,5 +40,13 @@
       ],
       "key": "Backspace"
     }
+  ],
+  "insert-template": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "T"
+    }
   ]
 }
