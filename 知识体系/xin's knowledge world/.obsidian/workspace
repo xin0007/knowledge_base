@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Day Planners/Day Planner-20210818.md",
+            "file": "Day Planners/Day Planner-20210820.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Day Planners/Day Planner-20210818.md",
+                "file": "Day Planners/Day Planner-20210820.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,15 +97,15 @@
   },
   "active": "11eff3303f81f604",
   "lastOpenFiles": [
-    "Day Planners/Day Planner-20210818.md",
-    "100-SlipBox/110-FleetingBox/-202108171608.md",
-    "100-SlipBox/111-LituratureBox/-202108181408.md",
-    "100-SlipBox/111-LituratureBox/达利欧的五步法.md",
-    "100-SlipBox/111-LituratureBox/多巴胺.md",
-    "100-SlipBox/111-LituratureBox/信息量和效率.md",
-    "Learn/learn_tag.md",
-    "Learn/达利欧的五步法.md",
-    "Learn/多巴胺.md",
-    "Learn/税务知识.md"
+    "Day Planners/Day Planner-20210820.md",
+    "Day Planners/Day Planner-20210819.md",
+    "Daily/2021-08-19.md",
+    "想法/五年计划.md",
+    "IT知识/airflow/重启.md",
+    "IT知识/airflow/脚本.md",
+    "IT知识/airflow/时区问题.md",
+    "IT知识/airflow/cron定时任务表达式.md",
+    "IT知识/airflow/执行器.md",
+    "100-SlipBox/112-PermanentBox/未命名.md"
   ]
 }
