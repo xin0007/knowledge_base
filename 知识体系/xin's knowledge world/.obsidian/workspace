@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Day Planners/Day Planner-20210820.md",
+            "file": "Day Planners/Day Planner-20210823.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Day Planners/Day Planner-20210820.md",
+                "file": "Day Planners/Day Planner-20210823.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,8 +87,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -97,15 +96,15 @@
   },
   "active": "11eff3303f81f604",
   "lastOpenFiles": [
+    "Day Planners/Day Planner-20210823.md",
     "Day Planners/Day Planner-20210820.md",
+    "Day Planners/Day Planner-20210822.md",
+    "Day Planners/Day Planner-20210821.md",
     "Day Planners/Day Planner-20210819.md",
     "Daily/2021-08-19.md",
     "想法/五年计划.md",
     "IT知识/airflow/重启.md",
     "IT知识/airflow/脚本.md",
-    "IT知识/airflow/时区问题.md",
-    "IT知识/airflow/cron定时任务表达式.md",
-    "IT知识/airflow/执行器.md",
-    "100-SlipBox/112-PermanentBox/未命名.md"
+    "IT知识/airflow/时区问题.md"
   ]
 }
