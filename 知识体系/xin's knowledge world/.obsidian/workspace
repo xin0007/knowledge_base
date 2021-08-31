@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Day Planners/Day Planner-20210823.md",
+            "file": "Day Planners/Day Planner-20210830.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Day Planners/Day Planner-20210823.md",
+                "file": "Day Planners/Day Planner-20210830.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,15 +96,15 @@
   },
   "active": "11eff3303f81f604",
   "lastOpenFiles": [
+    "Day Planners/Day Planner-20210830.md",
+    "Day Planners/Day Planner-20210825.md",
+    "Day Planners/Day Planner-20210824.md",
     "Day Planners/Day Planner-20210823.md",
     "Day Planners/Day Planner-20210820.md",
     "Day Planners/Day Planner-20210822.md",
     "Day Planners/Day Planner-20210821.md",
     "Day Planners/Day Planner-20210819.md",
     "Daily/2021-08-19.md",
-    "想法/五年计划.md",
-    "IT知识/airflow/重启.md",
-    "IT知识/airflow/脚本.md",
-    "IT知识/airflow/时区问题.md"
+    "想法/五年计划.md"
   ]
 }
