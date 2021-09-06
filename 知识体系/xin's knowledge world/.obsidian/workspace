@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TO_DO/健身小目标.md",
-            "mode": "source"
+            "file": "Day Planners/Day Planner-20210906.md",
+            "mode": "preview"
           }
         }
       }
@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334
+    "width": 371
   },
   "right": {
     "id": "1a5d9a98ec1e254a",
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TO_DO/健身小目标.md",
+                "file": "Day Planners/Day Planner-20210906.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -96,15 +97,15 @@
   },
   "active": "11eff3303f81f604",
   "lastOpenFiles": [
-    "TO_DO/健身小目标.md",
-    "TO_DO/TODO 0728.md",
-    "TO_DO/未命名.md",
-    "TO_DO/Reading_list.md",
-    "想法/未命名.md",
+    "Day Planners/Day Planner-20210906.md",
     "Day Planners/Day Planner-20210903.md",
-    "100-SlipBox/111-LituratureBox/-202109030809.md",
-    "100-SlipBox/110-FleetingBox/未命名.md",
-    "Day Planners/Day Planner-20210830.md",
-    "Day Planners/Day Planner-20210831.md"
+    "Day Planners/Day Planner-20210904.md",
+    "Day Planners/Day Planner-20210905.md",
+    "100-SlipBox/111-LituratureBox/多巴胺.md",
+    "Daily/2021-09-01.md",
+    "Daily/2021-09-05.md",
+    "TO_DO/健身小目标.md",
+    "100-SlipBox/111-LituratureBox/-202109042209.md",
+    "TO_DO/TODO 0728.md"
   ]
 }
