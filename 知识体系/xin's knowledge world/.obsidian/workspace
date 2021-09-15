@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "11eff3303f81f604",
+        "id": "97532d6b40692eb5",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Day Planners/Day Planner-20210906.md",
-            "mode": "preview"
+            "file": "IT知识/Docker学习/Docker学习笔记.md",
+            "mode": "source"
           }
         }
       }
@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 371
+    "width": 319
   },
   "right": {
     "id": "1a5d9a98ec1e254a",
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Day Planners/Day Planner-20210906.md",
+                "file": "IT知识/Docker学习/Docker学习笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,17 +95,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "11eff3303f81f604",
+  "active": "97532d6b40692eb5",
   "lastOpenFiles": [
-    "Day Planners/Day Planner-20210906.md",
-    "Day Planners/Day Planner-20210903.md",
-    "Day Planners/Day Planner-20210904.md",
-    "Day Planners/Day Planner-20210905.md",
-    "100-SlipBox/111-LituratureBox/多巴胺.md",
-    "Daily/2021-09-01.md",
-    "Daily/2021-09-05.md",
-    "TO_DO/健身小目标.md",
-    "100-SlipBox/111-LituratureBox/-202109042209.md",
-    "TO_DO/TODO 0728.md"
+    "IT知识/Docker学习/Docker学习笔记.md",
+    "IT知识/Linux操作/赋权给一个账号.md",
+    "IT知识/Linux操作/查看服务器系统版本.md",
+    "授权.md",
+    "Day Planners/Day Planner-20210915.md",
+    "IT知识/Linux操作/未命名.md",
+    "IT知识/Linux操作/yum更新索引.md",
+    "IT知识/airflow/重启.md",
+    "IT知识/airflow/脚本.md",
+    "IT知识/airflow/时区问题.md"
   ]
 }

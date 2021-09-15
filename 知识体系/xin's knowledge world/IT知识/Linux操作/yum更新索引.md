@@ -1,0 +1,3 @@
+```shell
+yum makecache fast
+```
