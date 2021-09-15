@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "IT知识/Docker学习/Docker学习笔记.md",
+            "file": "Daily/2021-09-15.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT知识/Docker学习/Docker学习笔记.md",
+                "file": "Daily/2021-09-15.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +97,7 @@
   },
   "active": "97532d6b40692eb5",
   "lastOpenFiles": [
+    "Daily/2021-09-15.md",
     "IT知识/Docker学习/Docker学习笔记.md",
     "IT知识/Linux操作/赋权给一个账号.md",
     "IT知识/Linux操作/查看服务器系统版本.md",
@@ -105,7 +106,6 @@
     "IT知识/Linux操作/未命名.md",
     "IT知识/Linux操作/yum更新索引.md",
     "IT知识/airflow/重启.md",
-    "IT知识/airflow/脚本.md",
-    "IT知识/airflow/时区问题.md"
+    "IT知识/airflow/脚本.md"
   ]
 }
