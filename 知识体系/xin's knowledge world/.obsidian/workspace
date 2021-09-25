@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily/2021-09-15.md",
-            "mode": "source"
+            "file": "Day Planners/Day Planner-20210922.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily/2021-09-15.md",
+                "file": "Day Planners/Day Planner-20210922.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,15 +97,15 @@
   },
   "active": "97532d6b40692eb5",
   "lastOpenFiles": [
-    "Daily/2021-09-15.md",
+    "Day Planners/Day Planner-20210922.md",
+    "Day Planners/Day Planner-20210918.md",
+    "Day Planners/Day Planner-20210919.md",
     "IT知识/Docker学习/Docker学习笔记.md",
-    "IT知识/Linux操作/赋权给一个账号.md",
     "IT知识/Linux操作/查看服务器系统版本.md",
-    "授权.md",
-    "Day Planners/Day Planner-20210915.md",
-    "IT知识/Linux操作/未命名.md",
-    "IT知识/Linux操作/yum更新索引.md",
-    "IT知识/airflow/重启.md",
-    "IT知识/airflow/脚本.md"
+    "IT知识/Linux操作/统计文件占用空间大小.md",
+    "磁盘容量.md",
+    "Daily/每日文摘.md",
+    "100-SlipBox/111-LituratureBox/-202109220809.md",
+    "IT知识/ansible/ansible简介.md"
   ]
 }
