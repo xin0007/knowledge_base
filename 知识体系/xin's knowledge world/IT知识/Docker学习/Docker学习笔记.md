@@ -240,12 +240,54 @@ docker run -d -p 8000:8000 -p 9000:9000 --name=portainer --restart=always -v /va
 是一个关于docker容器的可视化工具
 
 ## Docker 镜像
+1. UFS Union file system 联合文件系统 
+这是一种分层、轻量级并且高性能的文件系统。 -- 它支持对文件系统的修改作为一次提交来一层层的叠加。
+分层：每个文件都是一层
+轻量级：只保留基本的功能，能用就行
+高性能：因为其轻量级，所以加载快；因为其分层，所以可以多线程？
+
+UnionFS是Docker镜像的基础。镜像可以通过分层来进行继承，基于基础镜像，可以制作各种具体的应用镜像。
 
 
+自己制作镜像  -- docker commit
+```shell
+docker commit -a="author name"  -m="message" containerID name:tag
 
+例如：
+docker commit -a="lmxdashuaige" -m="added webapps" f2188fbce046 tomcat01:2.0
 
+docker images 查看：
+
+REPOSITORY               TAG       IMAGE ID       CREATED         SIZE
+tomcat01                 2.0       9a2d8402dcff   3 seconds ago   684MB  -- 新建的
+tomcat                   latest    bb832de23021   11 days ago     680MB  -- 原有的
+```
+![[Pasted image 20210926102026.png]]
 
 ## 容器数据卷
+数据卷理念：
+容器内的数据同步到本地环境
+目录的挂载，将我们容器内的目录，挂载到Linux上
+总结：容器的持久化和同步操作！容器间也可以实现数据共享
+
+```shell
+docker run -it -v host地址：容器地址
+
+
+e.g.
+1. docker run -it -v /home/ceshi:/home centos -> 把host的home/ceshi挂载到容器内centos中的 /home下
+
+2. docker inspect 一下
+docker inspect containerID
+```
+![[Pasted image 20210926155233.png]]
+
+docker 安装 MySQL
+```shell
+docker run -d -p 3310:3306 -v /home/mysql/conf:/etc/mysql/conf.d -v /home/mysql/data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=123456 --name mysql01 mysql:5.7
+```
+
+
 
 ## DockerFile
 
