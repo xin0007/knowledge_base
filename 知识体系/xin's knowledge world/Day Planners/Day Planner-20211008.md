@@ -11,7 +11,7 @@
 - [ ]  生命之花 
 - [ ]  复盘
 - [ ]  移动设备用户年龄和性别预测baseline
-- [ ] 《跃迁》
+- [x] 《跃迁》
 - [ ] CDA
 - [ ] think what you want -- or what you want to be
 - [ ] 学习Docker - 整理成册

@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "97532d6b40692eb5",
+        "id": "98f39cc170efec30",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "IT知识/Docker学习/Docker学习笔记.md",
+            "file": "Day Planners/Day Planner-20211013.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT知识/Docker学习/Docker学习笔记.md",
+                "file": "Day Planners/Day Planner-20211013.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,17 +95,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "97532d6b40692eb5",
+  "active": "98f39cc170efec30",
   "lastOpenFiles": [
+    "Day Planners/Day Planner-20211013.md",
+    "100-SlipBox/111-LituratureBox/未命名.md",
+    "100-SlipBox/112-PermanentBox/提高认知总结.md",
+    "Day Planners/Day Planner-20211011.md",
+    "Day Planners/Day Planner-20211009.md",
+    "Day Planners/Day Planner-20211010.md",
+    "Day Planners/Day Planner-20211012.md",
     "IT知识/Docker学习/Docker学习笔记.md",
-    "IT知识/Linux操作/vi编辑.md",
-    "Day Planners/Day Planner-20210926.md",
-    "Day Planners/Day Planner-20210922.md",
-    "Day Planners/Day Planner-20210923.md",
-    "Day Planners/Day Planner-20210924.md",
-    "Day Planners/Day Planner-20210925.md",
-    "Day Planners/Day Planner-20210918.md",
-    "Day Planners/Day Planner-20210919.md",
-    "IT知识/Linux操作/查看服务器系统版本.md"
+    "PYTHON/df/去除None值.md",
+    "PYTHON/df/未命名.md"
   ]
 }
