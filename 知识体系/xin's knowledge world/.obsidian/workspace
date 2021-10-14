@@ -7,10 +7,9 @@
         "id": "98f39cc170efec30",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
-            "file": "Day Planners/Day Planner-20211013.md",
-            "mode": "source"
+            "file": "图片储存/易薪云应用架构.jpg"
           }
         }
       }
@@ -68,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Day Planners/Day Planner-20211013.md",
+                "file": "图片储存/易薪云应用架构.jpg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,15 +96,15 @@
   },
   "active": "98f39cc170efec30",
   "lastOpenFiles": [
+    "图片储存/易薪云应用架构.jpg",
     "Day Planners/Day Planner-20211013.md",
+    "Day Planners/Day Planner-20211014.md",
+    "架构/未命名.md",
+    "Daily/2021-10-14.md",
+    "IT知识/Docker学习/Docker学习笔记.md",
     "100-SlipBox/111-LituratureBox/未命名.md",
     "100-SlipBox/112-PermanentBox/提高认知总结.md",
     "Day Planners/Day Planner-20211011.md",
-    "Day Planners/Day Planner-20211009.md",
-    "Day Planners/Day Planner-20211010.md",
-    "Day Planners/Day Planner-20211012.md",
-    "IT知识/Docker学习/Docker学习笔记.md",
-    "PYTHON/df/去除None值.md",
-    "PYTHON/df/未命名.md"
+    "Day Planners/Day Planner-20211009.md"
   ]
 }
