@@ -7,9 +7,10 @@
         "id": "98f39cc170efec30",
         "type": "leaf",
         "state": {
-          "type": "image",
+          "type": "markdown",
           "state": {
-            "file": "图片储存/易薪云应用架构.jpg"
+            "file": "IT知识/Docker学习/Docker学习笔记.md",
+            "mode": "source"
           }
         }
       }
@@ -67,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "图片储存/易薪云应用架构.jpg",
+                "file": "IT知识/Docker学习/Docker学习笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,15 +97,15 @@
   },
   "active": "98f39cc170efec30",
   "lastOpenFiles": [
-    "图片储存/易薪云应用架构.jpg",
-    "Day Planners/Day Planner-20211013.md",
-    "Day Planners/Day Planner-20211014.md",
-    "架构/未命名.md",
-    "Daily/2021-10-14.md",
     "IT知识/Docker学习/Docker学习笔记.md",
-    "100-SlipBox/111-LituratureBox/未命名.md",
-    "100-SlipBox/112-PermanentBox/提高认知总结.md",
-    "Day Planners/Day Planner-20211011.md",
-    "Day Planners/Day Planner-20211009.md"
+    "100-SlipBox/110-FleetingBox/关于快速模仿-202109030809.md",
+    "100-SlipBox/110-FleetingBox/灵活用工设想.md",
+    "Day Planners/Day Planner-20211015.md",
+    "Day Planners/Day Planner-20211014.md",
+    "图片储存/Pasted image 20211014085803.png",
+    "Day Planners/Day Planner-20211013.md",
+    "图片储存/易薪云应用架构.jpg",
+    "架构/未命名.md",
+    "Daily/2021-10-14.md"
   ]
 }

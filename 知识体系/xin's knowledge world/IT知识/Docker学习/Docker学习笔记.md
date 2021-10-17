@@ -96,7 +96,7 @@ docker search mysql  #与从Docker Hub中搜索相同
 docker search mysql -f stars=3000  #star数量超过3000的mysql镜像
 
 2. 下载 docker pull 
-docker pull mysql  #默认pull latestbanben
+docker pull mysql  #默认pull latest版本
 docker pull mysql:5.7  #下载5.7版本的mysql镜像
 ```
 
@@ -738,11 +738,11 @@ docker run -d -P --name nettest02 --net mynet tomcat
 1. 不同集群，互相隔离。
 2. 保证集群安全和健康
 
-## IDEA整合Docker
+#### 网络连通
+```shell
+docker  network connect network_name containerID
 
-## Docker Compose
+```
+增加之后，是会变成 一个容器，2个IP
 
-## Docker Swarm
 
-
-## CI/CD
