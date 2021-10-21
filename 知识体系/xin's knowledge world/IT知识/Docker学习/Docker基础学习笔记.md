@@ -34,8 +34,6 @@ yum-config-manager \
 
 3. 安装Docker引擎
 ```
-yum install docker-ce docker-ce-cli containerd.io
-
 ## docker-ce是community版本，如果是企业版本就是 -ee
 ```
 
@@ -746,3 +744,16 @@ docker  network connect network_name containerID
 增加之后，是会变成 一个容器，2个IP
 
 
+Jar包的dockerfile
+```shell
+FROM java:8
+
+COPY *.jar /app.jar
+
+CMD ["--server:port=8080"]
+
+EXPOSE 8080
+
+ENTRYPOINT ["java", "-jar", "/app.jar"]
+
+```
