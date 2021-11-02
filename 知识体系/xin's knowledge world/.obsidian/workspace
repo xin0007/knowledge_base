@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "其他语言/java/Java面向对象 OOP.md",
-            "mode": "source"
+            "file": "Day Planners/Day Planner-20211102.md",
+            "mode": "preview"
           }
         }
       }
@@ -52,8 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319,
-    "collapsed": true
+    "width": 319
   },
   "right": {
     "id": "1a5d9a98ec1e254a",
@@ -69,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "其他语言/java/Java面向对象 OOP.md",
+                "file": "Day Planners/Day Planner-20211102.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,15 +97,15 @@
   },
   "active": "98f39cc170efec30",
   "lastOpenFiles": [
+    "Day Planners/Day Planner-20211102.md",
+    "PYTHON/连接数据库/python连接greenplum.md",
+    "数据库知识/postgre/增加访问IP 白名单.md",
+    "Day Planners/Day Planner-20211101.md",
     "其他语言/java/Java面向对象 OOP.md",
-    "其他语言/java/Java数组 array.md",
+    "Daily/每日文摘.md",
     "其他语言/java/Java方法.md",
     "其他语言/java/java流程控制.md",
-    "Day Planners/Day Planner-20211028.md",
-    "Day Planners/Day Planner-20211029.md",
-    "其他语言/java/Java 堆和栈的讲解.md",
-    "其他语言/java/java入门.md",
-    "其他语言/java/java基础.md",
-    "Day Planners/Day Planner-20211026.md"
+    "其他语言/java/Java数组 array.md",
+    "Day Planners/Day Planner-20211028.md"
   ]
 }

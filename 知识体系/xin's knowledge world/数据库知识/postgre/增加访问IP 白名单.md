@@ -10,6 +10,7 @@ greenplum 连接报错!
 解决方法：
 
 1. 
+vi /data/master/gpseg-1/pg_hba.conf
 
 ![[Pasted image 20210811104832.png]]
 
