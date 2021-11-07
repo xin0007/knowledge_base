@@ -626,6 +626,155 @@ Person obj = new Student();
 4. 方便方法的调用，减少重复的代码，简洁
 
 
-## 抽象类和接口
+## Static 详解
+1. static 属性
+Static可以直接使用，不用new一个实例出来
+![[Pasted image 20211102230944.png]]
+第一个的age，不是static的，所以不能直接调用
+第二个的name，提示可以直接使用
 
-## 内部类及OOP实战
+2. 匿名代码块与静态代码块
+```java
+{
+	// 匿名代码块
+}
+
+static {
+	// 静态代码块
+}
+```
+
+测试匿名代码块、静态代码块构造方法的运行顺序
+构造代码块
+```java
+public class Person {  
+    {  
+        System.out.println("匿名代码块");  
+ }  
+    static {  
+        System.out.println("静态代码块");  
+ }  
+    public Person() {  
+        System.out.println("构造器");  
+ }  
+}
+```
+在main方法new Person()
+```java
+public static void main(String[] args) {  
+    Person person = new Person();  
+	System.out.println("=========");  
+	Person person1 = new Person();  
+}
+```
+结果：
+静态代码块
+匿名代码块
+构造器
+===============
+匿名代码块
+构造器
+
+结论：
+1. 顺序：静态代码块 -> 匿名代码块 -> 构造方法
+2. 次数：静态代码块只会运行一次，其他的可以多次
+
+## 抽象类
+1. `abstract`修饰符可以用来修饰类，也可以修饰方法。
+如果修饰方法，该方法就是抽象方法；
+如果修饰类，该类就是抽象类
+
+2. 抽象类中可以没有抽象方法，但是有抽象方法的类一定要声明为抽象类
+
+3. 抽象类，不能使用new关键字来创建对象，它是用来让子类继承的
+抽象类中，可以写普通的方法
+
+4. 抽象方法，可以只写名字，不写代码块。只是方法的声明，没有方法的实现，它是用来让子类实现的
+例如：
+```java
+public abstract void doSomeThing();
+```
+
+
+5. 子类继承抽象类，那么就必须要实现抽象类没有实现的抽象方法，否则该子类也要声明为抽象类，让子类的子类去实现
+
+6. 抽象存在的意义：
+抽象出来，提高发开效率
+
+7. 抽象类也是有构造器的
+
+
+## 接口
+1. vs
+普通类：只有具体实现
+抽象类 abstract：具体实现和规范（抽象方法）都有
+接口 interface ：只有规范，自己无法写方法 => 专业的约束。约束和实现分离：面向接口编程
+
+2. 接口就是规范，定义的是一组规则
+3. 接口的本质是契约，就像我们的法律一样，制定好后大家都遵守
+4. OO的精髓，是对对象的抽象，最能体现这一点的就是接口
+
+`声明类的关键字是class， 声明接口的关键字是interface`
+
+例子：
+先写接口：
+```java
+public interface UserService{
+	void add(String name);
+    void delete(int name);
+    void update(String name);
+    void query(int name);
+}
+```
+- 不需要写public，因为默认所有的方法都是public abstract
+
+ 接口实现
+```java
+public class UserImpl implements UserService, TimeService{
+
+    @Override
+    public void add(String name) {
+
+    }
+
+    @Override
+    public void delete(int name) {
+
+    }
+
+    @Override
+    public void update(String name) {
+
+    }
+
+    @Override
+    public void query(int name) {
+
+    }
+
+    @Override
+    public void timer(String[] a) {
+
+    }
+}
+```
+- 类可以实现接口 implements 接口
+- 实现接口的类，就需要重写接口中的方法
+- java中的多继承 - 利用接口的方式实现
+
+接口的作用：
+1. 约束
+2. 定义方法，分发给不同的人去实现
+3. interface中默认为：方法 - public abstract；属性 - public static final
+4. 接口不能被实例化，接口中没有构造方法
+5. implements可以实现多接口
+6. 必须重写接口中的方法
+
+## 内部类
+1. 内部类就是在一个类的内部定义了一个类，比如，A类中定义了一个B类，那么B类相对于A类来说就称为内部类，而A类相对于B类来说就是外部类了
+- 成员内部类
+- 静态内部类
+- 局部内部类
+- 匿名内部类
+
+

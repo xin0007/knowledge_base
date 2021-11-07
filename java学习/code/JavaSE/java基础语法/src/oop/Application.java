@@ -1,16 +1,10 @@
 package oop;
 
-
-import oop.Demo061.Person;
-import oop.Demo061.Student;
+import oop.Demo09.UserImpl;
+import oop.Demo09.UserService;
 
 public class Application {
     public static void main(String[] args) {
-        Student student = new Student();
-        student.run();
-
-        Person s2 = new Student();
-        ((Student) s2).run();
-
+        UserImpl user = new UserImpl();
     }
 }
