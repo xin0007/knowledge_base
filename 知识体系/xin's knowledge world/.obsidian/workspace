@@ -52,7 +52,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258
+    "width": 258,
+    "collapsed": true
   },
   "right": {
     "id": "1a5d9a98ec1e254a",
@@ -98,6 +99,7 @@
   "active": "98f39cc170efec30",
   "lastOpenFiles": [
     "其他语言/java/Java 多线程.md",
+    "Day Planners/Day Planner-20211108.md",
     "PYTHON/df/df&list统计.md",
     "Day Planners/Day Planner-20211104.md",
     "其他语言/java/Java 异常 Exception.md",
@@ -105,7 +107,6 @@
     "Daily/每日文摘.md",
     "其他语言/java/Java方法.md",
     "数据库知识/Oracle/sql选取元数据操作.md",
-    "数据库知识/postgre/增加访问IP 白名单.md",
-    "外服知识/数据库正式库密码.md"
+    "数据库知识/postgre/增加访问IP 白名单.md"
   ]
 }
